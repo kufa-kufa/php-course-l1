@@ -10,7 +10,7 @@
   
     </head>
     <div class="container">
-        <h2>Product lists</h2>
+        <h2>Product lists I changed from VIM redactor</h2>
     <div class="product">
         <form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
             <div class="row">
