@@ -6,6 +6,7 @@
                 <h3><?=$article['title']?></h3>
                 <em>Опубликовано: <?=$article['date']?></em>
                 <p><?=$article['content']?></p>
+                <a href="/Course-l1/ex4-1/">Назад</a>
             </div>
         </div>
     </div>

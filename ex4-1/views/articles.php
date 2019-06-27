@@ -4,11 +4,12 @@
         <div>
             <div class="article">
                 <ul>
-                    <?php foreach ($articles as $article) {
-                        $url = base64_encode($article["id"]);
-                        $url = urlencode($url);
-                        echo '<li style="list-style:none;"><a href=article.php?id='.$url.'>'.$article["title"].'</a></li>';
-                    }
+                    <?php 
+                        foreach ($articles as $article) {
+                            $url = base64_encode($article["id"]);
+                            $url = urlencode($url);
+                            echo '<li style="list-style:none;"><a href=article.php?id='.$url.'>'.$article["title"].'</a></li>';
+                        }
                     ?>
                 </ul>
                
